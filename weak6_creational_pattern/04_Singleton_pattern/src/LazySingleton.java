@@ -1,5 +1,7 @@
 public class LazySingleton {
 
+    // private static final LazySingleton instance=new LazySingleton();
+    
     private LazySingleton(){
         System.out.println("ctor k under hu, instance created !");
     }

@@ -5,10 +5,10 @@ public class SingletonDCLocking {
         System.out.println("Object created !");
     }
 
-    synchronized public static SingletonDCLocking getInstance(){
+    public static SingletonDCLocking getInstance(){
         if(instance==null){
             synchronized (SingletonDCLocking.class){
-                // System.out.println(SingletonDCLocking.instance);
+                System.out.println(SingletonDCLocking.instance);
                 if(instance==null){
                     instance=new SingletonDCLocking();
                 }
@@ -24,7 +24,7 @@ public class SingletonDCLocking {
         Thread th4=new Thread( () -> {SingletonDCLocking.getInstance(); } );
         th1.start();
         th2.start();
-        System.out.println("Ram");
+        System.out.println("Abhi");
         th3.start();
         th4.start();
     }

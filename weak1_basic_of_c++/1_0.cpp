@@ -28,16 +28,16 @@ int main()
     // cout << "Have a nice day. \n";
 
 
-    int a;
-    cout<<"Enter a number : ";
-    cin>>a;
-    switch (4){
-        case 1:cout<<"1"<<endl;
-        break;break;break;break;
-        case 2:cout<<"2"<<endl;
-        break;
-        default: cout<<"no match\n";
-    }
+    // int a;
+    // cout<<"Enter a number : ";
+    // cin>>a;
+    // switch (a){
+    //     case 1:cout<<"1"<<endl;
+    //     break;break;break;break;
+    //     case 2:cout<<"2"<<endl;
+    //     break;
+    //     default: cout<<"no match\n";
+    // }
 
 
     // while(1){

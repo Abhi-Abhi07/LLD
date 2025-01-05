@@ -55,8 +55,8 @@ int main(){
     // cout<<a.getX()<<endl;
     // cout<<a.getY()<<endl;
 
-    myclass a(3,7);
-    printMyClass(a);
+    // myclass a(3,7);
+    // printMyClass(a);
 
     cout<<"end"<<endl;
 

@@ -30,6 +30,9 @@ class vehicle{
     void stopEntgine(){
         cout<<"Engine Stoped !"<<endl;
     }
+     ~vehicle(){
+        cout<<"vehicle dtor called\n";
+    }
 };
 
 class moterCycle : public vehicle{
@@ -39,10 +42,18 @@ class moterCycle : public vehicle{
         cout<<"mpterCycle ctor called !"<<endl;
         this->maxSpeed=_maxSpeed;
     }
+    ~moterCycle(){
+        cout<<"moterCycle dtor called\n";
+    }
 };
 
 int main(){
     // vehicle *v=new vehicle(4,"honda","55CC3A");
-    moterCycle m(4,"Suzuki 800","RXI",140);
+    // delete v;
+    // moterCycle m(4,"Suzuki 800","RXI",140);
+    // vehicle *m=new moterCycle(2,"hero","vxi",100);
+    moterCycle *m=new moterCycle(2,"hero","vxi",100);
+
+    delete m;
 return 0;
 }

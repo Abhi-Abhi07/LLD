@@ -6,8 +6,7 @@ using namespace std;
 
 int main()
 {
-    // cout<<"My name is \"Abhi\" !"<<endl;
-
+    cout<<"My name is \"Abhi\" !"<<endl;
 
     // double number = 13.87669578;
     // // Set precision to the default value (6 decimal places)
